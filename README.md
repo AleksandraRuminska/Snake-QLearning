@@ -1,4 +1,4 @@
-## Snake
+## Snake Q-learning
 
 Project for AI classes at University written in Python adding the Q-learning algorithm for the existing Snake game. The Q-function that was implemented takes two input values: state and action. As the output it returns the expected future reward of that action at that state:
 

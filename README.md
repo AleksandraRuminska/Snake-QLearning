@@ -31,12 +31,15 @@ All directions are determined in relation to the human eyes/computer screen.
 **States:**
 
 States of environment depend on the three facts: if a wall is in one of the adjacent cells, placement of the food relative to the snake head and if the snake’s body is in any of four adjacent cells to the head (the solution doesn't not provide that our agent will avoid enclosing nor will it check diagonal cells). 
+
 Wall: 
 - No/Up/Down - 0/1/2 - there is no such cell which can have a wall both above and below itself 
 - No/Left/Right - 0/1/2 - there is no such cell which can have a wall both on left and right side 
+
 Apple: 
 - No/Up/Down - 0/1/2 - an apple cannot be above and below snake in the same time
 - No/Left/Right - 0/1/2 - an apple cannot be on left and right side in the same time 
+
 Body (no exclusion of opposite directions):
 - No/Up - 0/1
 - No/Down - 0/1

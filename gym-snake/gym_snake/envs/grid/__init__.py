@@ -1,0 +1,1 @@
+from gym_snake.envs.grid.square_grid import SquareGrid

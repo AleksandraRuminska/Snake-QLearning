@@ -26,6 +26,7 @@ Agent can choose one of four action in each step:
 - move down
 - move right
 - move left
+
 All directions are determined in relation to the human eyes/computer screen.
 
 **States:**
